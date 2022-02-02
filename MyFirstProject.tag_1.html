@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html><head><link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:600' rel='stylesheet'>
+<style>body {font-family: 'Source Sans Pro', sans-serif; width: 90%; margin: auto;}</style></head><body><h3>
+<br>
+<span style="color: rgb(30,130,201);">START - automation started - Tue Feb 01 2022 02:44:34 GMT+0530 (India Standard Time)</span><br>
+https://igrowuat2.capitaland.com/security/Login.aspx?redirect=1 - iGROW<br>
+<br>
+type //*[@id="ctl00_ContentPlaceHolder1_RadTextBoxUserName"] as dc\it_helpdesk<br>
+type //*[@id="ctl00_ContentPlaceHolder1_RadTextBoxPassword"] as Pass1234<br>
+click //*[@id="ctl00_ContentPlaceHolder1_RadButtonLogin_input"]<br>
+py print("Login Successful")<br>
+Login Successful<br>
+dump link to links.csv<br>
+10<br>
+read //html/body/div/form/div[10]/div[2]/div[4]/div/div/div/div[2]/div[1]/table/tbody/tr[1]/td[1]/a/@href  to found_link<br>
+../iRequest/Default.aspx?d=Or9%252fftr5UGXc85H7FaMNnqqTGEH4xhbl%252fHDeY6RkoBdiwKPAsE7Lzomu8OLPfwjU97lXwFl8bMkLnMVeA44Ib4%252f1Rhx23sERqTSZu7fMtdIeJ27mWznxOR3Jmli4eoyR<br>
+write https://igrowuat2.capitaland.com/../iRequest/Default.aspx?d=Or9%252fftr5UGXc85H7FaMNnqqTGEH4xhbl%252fHDeY6RkoBdiwKPAsE7Lzomu8OLPfwjU97lXwFl8bMkLnMVeA44Ib4%252f1Rhx23sERqTSZu7fMtdIeJ27mWznxOR3Jmli4eoyR to links.csv<br>
+read //html/body/div/form/div[10]/div[2]/div[4]/div/div/div/div[2]/div[1]/table/tbody/tr[2]/td[1]/a/@href  to found_link<br>
+../iRequest/Default.aspx?d=6GkOeNbTT7uMD02zoGIxXb3o%252bRJComNAwcoipZ3VB0q4X7BI8jlH28SdZCV%252fQUq%252fZ4lz%252b6G9IOdj%252fTI80zG0haM7q09kBGGM5fvgjnEGfL6myTeS4U%252bUrgkqWuZSRQ4I<br>
+write https://igrowuat2.capitaland.com/../iRequest/Default.aspx?d=6GkOeNbTT7uMD02zoGIxXb3o%252bRJComNAwcoipZ3VB0q4X7BI8jlH28SdZCV%252fQUq%252fZ4lz%252b6G9IOdj%252fTI80zG0haM7q09kBGGM5fvgjnEGfL6myTeS4U%252bUrgkqWuZSRQ4I to links.csv<br>
+read //html/body/div/form/div[10]/div[2]/div[4]/div/div/div/div[2]/div[1]/table/tbody/tr[3]/td[1]/a/@href  to found_link<br>
+../iRequest/Default.aspx?d=L%252bDxT8cB2YExvMdUNb4YKZB4xC%252b%252bE0kr9oT7dsjNDfZZ8FWswAVA9G8qJnw09%252b%252fR9cheCNuG0uy6sDdWZPOo2KQaoaOnQpaIf7iieFS%252fEAD4YJ84gXL17bz%252fL5V63Ftu<br>
+write https://igrowuat2.capitaland.com/../iRequest/Default.aspx?d=L%252bDxT8cB2YExvMdUNb4YKZB4xC%252b%252bE0kr9oT7dsjNDfZZ8FWswAVA9G8qJnw09%252b%252fR9cheCNuG0uy6sDdWZPOo2KQaoaOnQpaIf7iieFS%252fEAD4YJ84gXL17bz%252fL5V63Ftu to links.csv<br>
+read //html/body/div/form/div[10]/div[2]/div[4]/div/div/div/div[2]/div[1]/table/tbody/tr[4]/td[1]/a/@href  to found_link<br>
+../iRequest/Default.aspx?d=x%252f11%252fSAMy%252fZ3Xw%252f4C%252bS3%252fYAxua9AVALdWsm9zhrOKCF2YvqgZ5DDWeOkmBhgV5PSyXxAlKpiMw2JLPcx%252f54658%252bVWJxcNveDupKpLsNPhwN5OI8bUQsnxcVDpwIn475a<br>
+write https://igrowuat2.capitaland.com/../iRequest/Default.aspx?d=x%252f11%252fSAMy%252fZ3Xw%252f4C%252bS3%252fYAxua9AVALdWsm9zhrOKCF2YvqgZ5DDWeOkmBhgV5PSyXxAlKpiMw2JLPcx%252f54658%252bVWJxcNveDupKpLsNPhwN5OI8bUQsnxcVDpwIn475a to links.csv<br>
+read //html/body/div/form/div[10]/div[2]/div[4]/div/div/div/div[2]/div[1]/table/tbody/tr[5]/td[1]/a/@href  to found_link<br>
+../iRequest/Default.aspx?d=XqvCgS3U0R34stkEOcZqR9688SmAHxeey1JFUIiUHYLqtMVMR2X3O3AU8QxmHzQk0UHqts0giwm6fxky3hYpf4ViBAEB2xA1j8BX3Ev87OKQfYdwPg68IhRSAZHA%252b5%252bg<br>
+write https://igrowuat2.capitaland.com/../iRequest/Default.aspx?d=XqvCgS3U0R34stkEOcZqR9688SmAHxeey1JFUIiUHYLqtMVMR2X3O3AU8QxmHzQk0UHqts0giwm6fxky3hYpf4ViBAEB2xA1j8BX3Ev87OKQfYdwPg68IhRSAZHA%252b5%252bg to links.csv<br>
+read //html/body/div/form/div[10]/div[2]/div[4]/div/div/div/div[2]/div[1]/table/tbody/tr[6]/td[1]/a/@href  to found_link<br>
+../iRequest/Default.aspx?d=z0aDfP%252bNBYdcSzuAbL4hlVYbQLZwcEgOZ2gbmDvyVgzrt7SxXgrnm1YMrVrl7L1zdTl0Tw7Uy8dYI9CbfKftFCc%252bK5BZqDCcuJssrrB%252bNvYphcVjVABq2xLvK4GadS9S<br>
+write https://igrowuat2.capitaland.com/../iRequest/Default.aspx?d=z0aDfP%252bNBYdcSzuAbL4hlVYbQLZwcEgOZ2gbmDvyVgzrt7SxXgrnm1YMrVrl7L1zdTl0Tw7Uy8dYI9CbfKftFCc%252bK5BZqDCcuJssrrB%252bNvYphcVjVABq2xLvK4GadS9S to links.csv<br>
+read //html/body/div/form/div[10]/div[2]/div[4]/div/div/div/div[2]/div[1]/table/tbody/tr[7]/td[1]/a/@href  to found_link<br>
+../iRequest/Default.aspx?d=dYwP89BKi2WylG16sho92wrgRGztZ2LiMjbZ58aZR0Eu3152B1eS937ShXwskoz3zJQoKlH4YCRzCqYR8tIQk3j8rlYCLsqx2ZHG8QVZ1OlWkCfd32u4fyeRq6HFY1be<br>
+write https://igrowuat2.capitaland.com/../iRequest/Default.aspx?d=dYwP89BKi2WylG16sho92wrgRGztZ2LiMjbZ58aZR0Eu3152B1eS937ShXwskoz3zJQoKlH4YCRzCqYR8tIQk3j8rlYCLsqx2ZHG8QVZ1OlWkCfd32u4fyeRq6HFY1be to links.csv<br>
+read //html/body/div/form/div[10]/div[2]/div[4]/div/div/div/div[2]/div[1]/table/tbody/tr[8]/td[1]/a/@href  to found_link<br>
+../iStaff/Default.aspx?d=eCGGJbyw3jDasQCsHt9PhXpaAteWMUANi%252fAXwO%252f1J3oj7%252bxLgX6Q%252bQYj9RJN12poCeWtyjyzFgZ86vHTC8mf9rST0BUU%252fjKukkgBtof%252f8TAZiZOgky6IOhdMULFwA%252bDnNNWzY0g9brVBmCgE7iFZsvef9BTrmS1x<br>
+write https://igrowuat2.capitaland.com/../iStaff/Default.aspx?d=eCGGJbyw3jDasQCsHt9PhXpaAteWMUANi%252fAXwO%252f1J3oj7%252bxLgX6Q%252bQYj9RJN12poCeWtyjyzFgZ86vHTC8mf9rST0BUU%252fjKukkgBtof%252f8TAZiZOgky6IOhdMULFwA%252bDnNNWzY0g9brVBmCgE7iFZsvef9BTrmS1x to links.csv<br>
+read //html/body/div/form/div[10]/div[2]/div[4]/div/div/div/div[2]/div[1]/table/tbody/tr[9]/td[1]/a/@href  to found_link<br>
+../iStaff/Default.aspx?d=vvZNxoC8o0G0Y9J5s1zfXfgCA8ztK7oWaBMG5jZRbnCB9HpgQ1v3O%252bv7x38YjA7N3Nua8bMUODjeEWPY97yWqCdhA5WJlLKHx1hiM3AHY72Sg1bt4caePkezi%252fmKq%252f%252fHmMvjRN1IMni%252fyRyUBcHiONZM26czt3PP<br>
+write https://igrowuat2.capitaland.com/../iStaff/Default.aspx?d=vvZNxoC8o0G0Y9J5s1zfXfgCA8ztK7oWaBMG5jZRbnCB9HpgQ1v3O%252bv7x38YjA7N3Nua8bMUODjeEWPY97yWqCdhA5WJlLKHx1hiM3AHY72Sg1bt4caePkezi%252fmKq%252f%252fHmMvjRN1IMni%252fyRyUBcHiONZM26czt3PP to links.csv<br>
+<br>
+https://igrowuat2.capitaland.com/Dashboard/Dashboard.aspx - iGROW<br>
+FINISH - automation finished - 16.1s<br>
+<br>
+</h3></body></html>
